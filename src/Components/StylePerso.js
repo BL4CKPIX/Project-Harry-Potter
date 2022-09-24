@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
+
 export const ContainerPerso = styled.div`
     display: flex;
-    
     width: 25%;
-    height: 55vh;
+    height: 70vh;
     align-items: center;
     flex-direction: column;
 
@@ -15,15 +15,20 @@ export const ContainerPerso = styled.div`
             transition: ease-in-out 0.5s ;
             border:solid 2px yellow;
         }
+        
     }
+
     
     li{
         color:white;
         font-size: 20px;
         list-style: none;
+        text-align: center;
+
         :hover{
             font-weight: bold;
             color:yellow;
+            font-size: 25px;
         }
     }
 `

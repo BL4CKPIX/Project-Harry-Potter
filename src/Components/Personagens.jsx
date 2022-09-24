@@ -16,13 +16,17 @@ const Personagens = () =>{
     })
   }, [card])
 
+  
 
   return(
     <S.Div>
-      {card.map((item) =>(
-        <S.ContainerPerso>
+      {card.slice(0,24).map((item,index) =>(
+        <S.ContainerPerso key={index}>
         <ul>
-          <li>{item.name}</li>
+          <li>Nome :{item.name}</li>
+          <li>Especie : {item.species}</li>
+          <li>Genero : {item.gender}</li>
+          <li>Casa : {item.house}</li>
         </ul>
         <figure>
             <img src={item.image} />
