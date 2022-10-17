@@ -24,7 +24,7 @@ const Sonserina = () =>{
             <S.Div key={index}>
                 <li>{item.name}</li>
                 <figure>
-                    <img src={item.image} />
+                    <img src={item.image} alt='Sonserina' />
                 </figure>
             </S.Div>
         ))}

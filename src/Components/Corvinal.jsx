@@ -24,7 +24,7 @@ const Corvinal = () =>{
             <S.Div key={index}>
                 <li>{item.name}</li>
                 <figure>
-                    <img src={item.image} />
+                    <img src={item.image} alt='corvinal' />
                 </figure>
             </S.Div>
         ))}

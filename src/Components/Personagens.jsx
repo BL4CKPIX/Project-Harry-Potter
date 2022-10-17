@@ -29,7 +29,7 @@ const Personagens = () =>{
           <li>Casa : {item.house}</li>
         </ul>
         <figure>
-            <img src={item.image} />
+            <img src={item.image} alt='Todos' />
         </figure>
         </S.ContainerPerso>
       ))}
