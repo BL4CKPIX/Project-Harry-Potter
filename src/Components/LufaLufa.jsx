@@ -1,9 +1,9 @@
-import React,{useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import axios from 'axios'
 import * as S from './StyleLufa'
 
-const lufaLufa = () =>{
-    const [lufa,setLufa] = useState([])
+export default function LufaLufa(){
+    const [lufa, setLufa] = useState([])
 
     useEffect(() =>{
 
@@ -31,4 +31,3 @@ const lufaLufa = () =>{
     </S.ContainerLufa>
    )
 }
-export default lufaLufa;
