@@ -6,7 +6,7 @@ import Personagens from '../Components/Personagens'
 import Griforia from '../Components/Grifinória'
 import Sonserina from '../Components/Sonserina'
 import Corvinal from '../Components/Corvinal'
-import Lufalufa from '../Components/Lufa-lufa'
+import LufaLufa from '../Components/LufaLufa'
 
 const Rotas = () =>{
     return(
@@ -18,7 +18,7 @@ const Rotas = () =>{
                 <Route path='/Grifinória' element={<Griforia />} />
                 <Route path='/Sonserina' element={<Sonserina/>} />
                 <Route path='/Corvinal' element={<Corvinal/>} />
-                <Route path='/Lufa-lufa' element={<Lufalufa/>} />
+                <Route path='/Lufalufa' element={<LufaLufa/>} />
             </Routes>
         </BrowserRouter>
     )

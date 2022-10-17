@@ -5,7 +5,7 @@ const Personagens = () =>{
   const [card, setCard] = useState([])
 
   useEffect(() =>{
-    axios.get('http://hp-api.herokuapp.com/api/characters')
+    axios.get('https://hp-api.herokuapp.com/api/characters')
     .then(res =>{
       setCard(res.data)
       console.log(res)
@@ -16,7 +16,7 @@ const Personagens = () =>{
     })
   }, [card])
 
-  
+
 
   return(
     <S.Div>
